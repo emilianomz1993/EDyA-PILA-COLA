@@ -9,7 +9,7 @@ class Pila:
         print ("La lista estaq vacia")
     def insertar(self,x):
         if self.tope < self.cant:
-            self.pila.append(x)
+            self.pila[self.tope]=x
             self.tope=self.tope+1
         else:
             return  self.lleno()    
